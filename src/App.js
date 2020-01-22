@@ -14,7 +14,7 @@ class App extends React.Component {
     }
 
     componentDidMount() {
-        this.handleSubmit('pdf generation with react and node')
+        this.handleSubmit('pdf generation with react and node');
     }
 
     onVideoSelect = (video) => {
@@ -26,7 +26,7 @@ handleSubmit = async (searchTerm) => {
         params: {
             part:  'snippet',
             maxResults: 5,
-            key: 'AIzaSyAmGJDmda3ia8yuDryvtkDtJ9oN5-lIKyE',
+            key: '[API_KEY]',
             q: searchTerm           
         }
 });
